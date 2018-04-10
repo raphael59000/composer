@@ -1,0 +1,17 @@
+{
+    "name": "raphael/quete_composer",
+    "authors": [
+        {
+            "name": "Raphael Duquesne",
+            "email": "raphael.duquesne59000@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "ehime/hello-world": "^1.0"
+        
+    },
+    "autoload": {
+        "psr-4": {"app\\Wcs\\": "app/Wcs/"}
+    }
+}
